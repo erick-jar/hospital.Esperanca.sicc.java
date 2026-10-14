@@ -71,11 +71,17 @@
         </dependency>
         -->
         <!-- Para usar MySQL: descomente abaixo e ajuste o application.properties -->
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+<!--        <dependency>
+           <groupId>com.mysql</groupId>
+           <artifactId>mysql-connector-j</artifactId>
+         <scope>runtime</scope>
+       </dependency> -->
+        <!--- Para utilizar o postgres: descomente abaixo -->
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <scope>runtime</scope>
+</dependency>
 
 
         <dependency>
